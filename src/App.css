@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+    }
+    div{ padding: 1rem;}
+    /*table css*/
+    table {
+      border-spacing: 0;
+      border: 1px solid black;
+      width: 100%;
+    }
+    table tr:last-child td {
+          border-bottom: 0;
+    }
+    th,
+    td {
+      text-align: center;
+      vertical-align: middle;
+      margin: 0;
+      padding: 0.5rem;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+    
+      
+    } 
+    th:last-child,
+    td:last-child {
+        border-right: 0;
+      }
+    
+      .firstRow{
+        background-color: rgb(210, 201, 190);
+      }
+    /* Basket Cart Css*/
+    .basketCard{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 50%;
+        background: white;
+        border: 1px solid black;
+        box-shadow: 0px 0px 3px 2px #888888;
+    }
+    .cartItem{
+      padding: 0;
+      font-size: small;
+    }
