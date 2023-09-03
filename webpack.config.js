@@ -45,5 +45,5 @@ plugins: [
     new CleanWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.ProgressPlugin(),
-    new HtmlWebpackPlugin({ title: "MerhabaApp", template: path.resolve(__dirname, './src/index.html') })
+    new HtmlWebpackPlugin({ title: "Nesine.com", template: path.resolve(__dirname, './src/index.html') })
 ],}
